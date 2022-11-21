@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+li {
+  list-style: none;
+  background-color: rgb(74, 142, 231);
+  color: white;
+  font-weight: bold;
+  width: 40px;
+  height: 100%;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 3px 3px rgb(0 0 0 / 0.1);
+  border: solid rgb(74, 142, 231);
+}
+
+.container {
+  width: 500px;
+}
+
+form {
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(101, 155, 249);
+}
